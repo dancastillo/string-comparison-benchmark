@@ -1,0 +1,3 @@
+export const NUM_OF_LOOKUPS = 100000000
+
+export const ALL_METHODS = ['POST', 'PUT', 'PATCH', 'TRACE', 'SEARCH', 'PROPFIND', 'PROPPATCH', 'LOCK']

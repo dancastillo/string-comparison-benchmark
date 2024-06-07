@@ -1,0 +1,14 @@
+{
+  "name": "string-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compare:time": "node if.js && node search.js && node switch.js && node tree.js && node set.js",
+    "compare:hyperfine": "hyperfine -w 5 'node if.js' 'node search.js' 'node switch.js' 'node tree.js' 'node set.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
