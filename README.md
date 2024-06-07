@@ -1,8 +1,9 @@
-# String Comparison Benchmark 
+# String Comparison Benchmark
 
 String comparison benchmark for method lookup
 
 ---
+
 ## Requirements
 
 You will only need [Node.js](https://github.com/nodejs/node) and [hyperfine](https://github.com/sharkdp/hyperfine) optional
@@ -39,3 +40,17 @@ Run with hyperfine
 ```bash
 $ npm run compare:hyperfine
 ```
+
+## Results
+
+Results with `npm run compare:test`
+
+Winner: `set`
+
+![results-1](./assets/compare-time.png)
+
+Results with `npm run compare:hyperfine`
+
+Winner: `switch`
+
+![results-1](./assets/compare-hyperfine.png)
